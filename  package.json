@@ -1,0 +1,12 @@
+{
+  "name": "defi-prestamos",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "backend": "cd backend && yarn hardhat",
+    "frontend": "cd frontend && yarn dev"
+  }
+}

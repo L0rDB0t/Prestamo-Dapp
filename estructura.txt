@@ -1,0 +1,4 @@
+/defi-prestamos
+├── backend/       # Contratos y scripts Hardhat
+├── frontend/      # Aplicación React
+└── packages.json  # Workspace config
