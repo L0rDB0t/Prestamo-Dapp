@@ -1,4 +1,4 @@
-⚙️ # DeFi Loan Optimizer - Documentación Técnica
+# ⚙️ DeFi Loan Optimizer - Documentación Técnica
 Descripción del Proyecto
 
 El DeFi Loan Optimizer es una solución integral para la optimización de préstamos descentralizados que analiza comparativamente las tasas de interés entre los principales protocolos de lending (Aave y Compound) y ejecuta automáticamente las operaciones en el protocolo más conveniente para el usuario.
@@ -118,7 +118,7 @@ bash
 
 El sistema implementa múltiples capas de seguridad:
 
-    HSM Simulado:
+   ## HSM Simulado:
 
         Almacenamiento seguro de claves
 
@@ -126,7 +126,7 @@ El sistema implementa múltiples capas de seguridad:
 
         Rotación automática de credenciales
 
-    Patrones de Diseño Seguros:
+    ## Patrones de Diseño Seguros:
 
         Checks-effects-interactions
 
@@ -134,7 +134,7 @@ El sistema implementa múltiples capas de seguridad:
 
         Validación exhaustiva de inputs
 
-    Monitoreo Continuo:
+    ## Monitoreo Continuo:
 
         Integración con servicios de alertas
 
@@ -172,7 +172,7 @@ La solución incluye:
 
 ## Consideraciones de Producción
 
-    Optimización de Costos:
+    ## Optimización de Costos:
 
         Técnicas avanzadas de gas optimization
 
@@ -196,7 +196,7 @@ La solución incluye:
 
         Documentación técnica exhaustiva
 
-Licencia y Uso
+## Licencia y Uso
 
 Este proyecto se distribuye bajo licencia MIT, con las siguientes consideraciones:
 
