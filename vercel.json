@@ -1,16 +1,4 @@
 {
-  "routes": [
-    {
-      "src": "/favicon.ico",
-      "dest": "/public/favicon.ico",
-      "status": 200
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html",
-      "status": 200
-    }
-  ],
   "version": 2,
   "builds": [
     {
@@ -19,6 +7,12 @@
       "config": {
         "distDir": "."
       }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ],
   "headers": [
