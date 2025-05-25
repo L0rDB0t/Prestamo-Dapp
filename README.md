@@ -1,4 +1,4 @@
-⚙️ DeFi Loan Optimizer - Documentación Técnica
+⚙️ # DeFi Loan Optimizer - Documentación Técnica
 Descripción del Proyecto
 
 El DeFi Loan Optimizer es una solución integral para la optimización de préstamos descentralizados que analiza comparativamente las tasas de interés entre los principales protocolos de lending (Aave y Compound) y ejecuta automáticamente las operaciones en el protocolo más conveniente para el usuario.
@@ -29,7 +29,7 @@ Componentes Principales
 
         Mecanismos de pausa y emergencia
 
-Implementación Detallada
+## Implementación Detallada
 Contrato Inteligente (LoanOptimizer.sol)
 
 El núcleo del sistema reside en el contrato inteligente que realiza:
@@ -58,17 +58,17 @@ El núcleo del sistema reside en el contrato inteligente que realiza:
 
         Integración con herramientas de analytics
 
-Configuración de Hardhat
+## Configuración de Hardhat
 
 El entorno de desarrollo incluye:
 
-    Redes Configuradas:
+    ## Redes Configuradas:
 
         Sepolia testnet con soporte para verificación de contratos
 
         Configuración local para desarrollo y testing
 
-    Plugins Esenciales:
+    ## Plugins Esenciales:
 
         TypeChain para generación automática de tipos
 
@@ -76,7 +76,7 @@ El entorno de desarrollo incluye:
 
         Integración con Etherscan
 
-    Variables de Entorno:
+    ## Variables de Entorno:
 
         Gestión segura de claves privadas
 
@@ -84,7 +84,7 @@ El entorno de desarrollo incluye:
 
         API keys para servicios externos
 
-Flujo de Trabajo de Desarrollo
+## Flujo de Trabajo de Desarrollo
 
     Configuración Inicial:
     bash
@@ -94,27 +94,27 @@ git clone [repo-url]
 cd defi-loan-optimizer/backend
 yarn install
 
-Compilación:
+## Compilación:
 bash
 
 npx hardhat compile
 
-Testing:
+## Testing:
 bash
 
 npx hardhat test
 
-Despliegue:
+## Despliegue:
 bash
 
 npx hardhat run scripts/deploy.ts --network sepolia
 
-Verificación:
+## Verificación:
 bash
 
     npx hardhat verify --network sepolia [contract-address] [constructor-args]
 
-Seguridad Avanzada
+## Seguridad Avanzada
 
 El sistema implementa múltiples capas de seguridad:
 
@@ -142,11 +142,11 @@ El sistema implementa múltiples capas de seguridad:
 
         Auditorías periódicas automatizadas
 
-Integración con Dune Analytics
+## Integración con Dune Analytics
 
 La solución incluye:
 
-    Consultas Preconfiguradas:
+    ## Consultas Preconfiguradas:
 
         Análisis comparativo histórico de tasas
 
@@ -154,7 +154,7 @@ La solución incluye:
 
         Métricas de ahorro para usuarios
 
-    Dashboards:
+    ## Dashboards:
 
         Visualización de performance del sistema
 
@@ -162,7 +162,7 @@ La solución incluye:
 
         Alertas de mercado
 
-    API de Datos:
+    ## API de Datos:
 
         Endpoints para consultas personalizadas
 
@@ -170,7 +170,7 @@ La solución incluye:
 
         Integración con herramientas externas
 
-Consideraciones de Producción
+## Consideraciones de Producción
 
     Optimización de Costos:
 
@@ -180,7 +180,7 @@ Consideraciones de Producción
 
         Estrategias de batch processing
 
-    Escalabilidad:
+    ## Escalabilidad:
 
         Diseño modular para upgrades
 
@@ -188,7 +188,7 @@ Consideraciones de Producción
 
         Mecanismos de carga progresiva
 
-    Mantenimiento:
+    ## Mantenimiento:
 
         Sistema de versionado semántico
 
