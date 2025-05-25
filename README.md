@@ -62,13 +62,13 @@ El núcleo del sistema reside en el contrato inteligente que realiza:
 
 El entorno de desarrollo incluye:
 
-    ## Redes Configuradas:
+     Redes Configuradas:
 
         Sepolia testnet con soporte para verificación de contratos
 
         Configuración local para desarrollo y testing
 
-    ## Plugins Esenciales:
+     Plugins Esenciales:
 
         TypeChain para generación automática de tipos
 
@@ -76,7 +76,7 @@ El entorno de desarrollo incluye:
 
         Integración con Etherscan
 
-    ## Variables de Entorno:
+     Variables de Entorno:
 
         Gestión segura de claves privadas
 
@@ -126,7 +126,7 @@ El sistema implementa múltiples capas de seguridad:
 
         Rotación automática de credenciales
 
-    ## Patrones de Diseño Seguros:
+     Patrones de Diseño Seguros:
 
         Checks-effects-interactions
 
@@ -134,7 +134,7 @@ El sistema implementa múltiples capas de seguridad:
 
         Validación exhaustiva de inputs
 
-    ## Monitoreo Continuo:
+     Monitoreo Continuo:
 
         Integración con servicios de alertas
 
@@ -146,7 +146,7 @@ El sistema implementa múltiples capas de seguridad:
 
 La solución incluye:
 
-    ## Consultas Preconfiguradas:
+     Consultas Preconfiguradas:
 
         Análisis comparativo histórico de tasas
 
@@ -154,7 +154,7 @@ La solución incluye:
 
         Métricas de ahorro para usuarios
 
-    ## Dashboards:
+     Dashboards:
 
         Visualización de performance del sistema
 
@@ -162,7 +162,7 @@ La solución incluye:
 
         Alertas de mercado
 
-    ## API de Datos:
+     API de Datos:
 
         Endpoints para consultas personalizadas
 
@@ -172,7 +172,7 @@ La solución incluye:
 
 ## Consideraciones de Producción
 
-    ## Optimización de Costos:
+     Optimización de Costos:
 
         Técnicas avanzadas de gas optimization
 
@@ -180,7 +180,7 @@ La solución incluye:
 
         Estrategias de batch processing
 
-    ## Escalabilidad:
+     Escalabilidad:
 
         Diseño modular para upgrades
 
@@ -188,7 +188,7 @@ La solución incluye:
 
         Mecanismos de carga progresiva
 
-    ## Mantenimiento:
+     Mantenimiento:
 
         Sistema de versionado semántico
 
